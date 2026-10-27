@@ -67,3 +67,49 @@ try:
     print("Ringi ümbermõõt:"), 2*pi*R)
 except :
     print("Valeda andmed")
+
+# Ülesanne 4
+# Koosta programm, mis arvutab välja Maa ümbermõõdu ekvaatori kohal 2-eurostes müntides ehk teisisõnu: 
+# kui palju 2-euroseid münte tuleb panna üksteise kõrvale, et rida ulatuks ümber Maa. Kasuta teadmist, et Maa raadius ekvaatori kohal on 6378 km.
+
+# Algandmed (Maa raadius, mündi läbimõõt jne) omista programmi alguses sisukate nimedega muutujatele. Kuna ümbermõõdu 
+# arvutamiseks tuleb kasutada  PI-d (3,14...), siis võid selle (umbkaudse) väärtuse otse programmi kirjutada.  
+# Püüdke välja mõelda viise, kuidas juhuslikest vigadest valemis hoiduda (teisendamised, ümardamise täpsus jne). 
+# Võimalusel võrrelge tulemusi teistega. Kui on erinevusi, leidke ühiselt põhjused.
+# Kas programm on piisavalt hästi kirjutatud, et algandmete muutumise korral (näiteks juhul, 
+# kui on vaja arvutada Marsi ümbermõõtu 1-eurostes müntides) on parandusi selge ja lihtne teha?
+
+
+# Ülesanne 5
+# Eelnevaid teadmisi kasutades kirjuta programm, mis väljastaks:
+# kill-koll kill-koll killadi-koll kill-koll kill-koll killadi-koll kill-koll kill-koll kill-koll
+# kill-koll
+
+# Saab kasutada muutujaid. Kuva iga sõna suure tähega.
+a="Kill-koll"
+b="Killadi-koll"
+print(a.upper() * 3 + b.upper() + a. upper() * 3 + b.upper() + a. upper() * 3)
+
+# Ülesanne 6
+# Koosta programm, mis väljastaks järgmised laulusõnad suurte tähtedega:
+
+print ("Rong see sõitis tsuhh tsuhh tsuhh,".upper())
+print ("""piilupart oli rongijuht.
+Rattad tegid rat tat taa,
+rat tat taa ja tat tat taa.
+Aga seal rongi peal,
+kas sa tead, kes olid seal?
+
+Rong see sõitis tuut tuut tuut,
+piilupart oli rongijuht.
+Rattad tegid kill koll koll,
+kill koll koll ja kill koll kill.""".upper())
+
+
+
+# ....Sisend, väljund, tingimus....
+
+# Ülesanne 7
+# Koosta programm, mis küsib kasutajalt ristküliku lähiskülgede pikkused ning väljastab ekraanile ristküliku ümbermõõdu ja pindala.
+
+
